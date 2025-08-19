@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+font-family: 'Montserrat';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(215, 212, 212, 0.5);
+ 
+}
+
+.hero{
+      background: url('../imgs/aboy.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 47px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(254, 124, 2);
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.app-type {
+  font-weight: 400;
+  color: #fcf9f9;
+  font-size: 18px;
+}
+
+.app-type2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
+
+.description {
+  font-size: 16px;
+  color: #eee;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+
+}
+
+
+.food{
+  width: 100%;
+}
+.playstore {
+  background-color: orange;
+  color: white;
+}
+
+.playstore:hover {
+  background-color: darkorange;
+}
+
+.appstore {
+  border: 2px solid white;
+  color: white;
+}
+
+.appstore:hover {
+  background-color: white;
+  color: rgb(17, 16, 16);
+}
+
+ body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phones {
+  position: relative;
+  top: -200px;
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones img {
+  height: 400px;
+  object-fit: contain;
+  box-shadow: 0 10px 20px rgba(13, 13, 13, 0.1);
+  border-radius: 20px;
+}
+
+.how-it-works {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.how-it-works h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.step img {
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.text {
+  max-width: 400px;
+  text-align: left;
+}
+
+.text h4 {
+  color: #ff4500;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.text h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1em;
+  color: #666;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.feature-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  max-width: 450px;
+}
+
+.feature-text h4 {
+  color: #ff4500;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.feature-text h3 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.feature-text p {
+  font-size: 1em;
+  color: #666;
+}
+
+.feature-image img {
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.download-section {
+  background: url('../imgs/aboy2.png') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+}
+
+.download-content h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.download-content p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn.primary {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+}
+
+.btn.secondary {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+/* Footer */
+.footer {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer .logo img {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.socials {
+  margin-bottom: 20px;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.socials img {
+  height: 24px;
+}
+
+
+
